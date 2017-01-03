@@ -44,19 +44,19 @@ a {
 .photo-links  {
   border: solid 2px red;
   max-width: 30%;
-  max-height: 111%;
   display: inline-flex;
-  /*display: inline-block;*/
+
 }
 
 .photo-links img {
-  max-width: 80%;
+  max-width: 100%;
   max-height: 80%;
+
 
 }
 
 
 
-.photo-container ul li {
-  display:inline-block;
+.photo-container  {
+  align-content: space-around;
 }
